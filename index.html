@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+    <style>
+       @import url("css/default.css");
+       @import url("css/gnb.css");
+       .main{
+        background-color: #fafafa;
+        padding-top: 25px;
+
+        align-items: flex-start;
+       }
+       .feed{
+        background-color: white;
+        width: 470px;
+        margin-right: 20px;
+        font-weight: bold;
+        
+
+        border-radius: 8px;
+        border: 0,5px solid lightgray;
+        font-size: 13px;
+        
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+       }
+       .account {
+        width: 320px;
+        margin-top: 10px;
+        font-size: 14px;
+       }
+       .account-content {
+        width: 100%;
+       }
+       .account-content > li {
+        justify-content: space-between;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+       }
+       .account-content > li > p {
+        margin-left: 20px;
+        margin-right: auto;
+
+        align-items: flex-start;
+       }
+       .account-content > li > a {
+        color: skyblue;
+        font-size: 13px;
+       }
+       .account-content > li > p > span:first-child {
+        font-weight: bold;
+        color: black;
+       }
+       .account-content > li > p > span:last-child {
+        font-weight: bold;
+        color: gray;
+       }
+       .img-wrap {
+        border-radius: 50%;
+        overflow: hidden;
+        border: 0,5px solid #f2f2f2;
+        display: flex;
+       }
+       li.Suggestions > span {
+        color: gray;
+       }
+       li.Suggestions > a {
+        color: black;
+       }
+       .about {
+        margin-top: 30px;
+        margin-bottom: 30px;
+       }
+       .about > a {
+        color: lightgrey;
+        font-size: 11px;
+        margin-right: 2px;
+       }
+       .name {
+        color:black;
+        font-size: 12px;
+        
+        margin-right: auto;
+       }
+       .profile{
+        justify-content: space-between;
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+       }
+       .profile  > p {
+        margin-left: 18px;
+        margin-right: auto;
+        font-weight: bold;
+       }
+       .profile > p > span:first-child{
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-right: auto;
+       }
+       .imgs > div > img {
+        width: 100%;
+       }
+       .icons {
+        width: 97%;
+       }
+       .icons > img:last-child{
+        margin-left: auto;
+       }
+       .likes {
+        width: 95%;
+        margin-right: auto;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+       }
+       .comments {
+        width: 92%;
+        margin-top: 10px;
+       }
+       .comments > span.titel {
+        font-weight: bold;
+       }
+       .comments > span.hashtag {
+        color: darkblue;
+       }
+       .count {
+        margin-right: auto;
+        color: lightgray;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+       }
+       .time {
+        margin-right: auto;
+        font-size: 10px;
+        color: lightgray;
+       }
+    </style>
+</head>
+<body>
+
+   <div class="gnb flex-row">
+    <div class="gnb-content flex-row">
+        <div class="logo flex-row">
+            <img width="102" src="image/logo_instagram.png">
+            <i class="bi bi-chevron-compact-down"></i>
+        </div>
+    </div>
+    <div class="search-box flex-row">
+        <input type="text" placeholder="Search">
+    </div>
+    <div class="icons flex-row">
+        <img src="image/icons/1.png">
+        <img src="image/icons/2.png">
+        <img src="image/icons/3.png">
+        <img src="image/icons/4.png">
+        <img src="image/icons/5.png">
+        <img width="32" src="image/icons/6.png">
+    </div>
+   </div>
+   </div>
+   <div class="main flex-row">
+    <div class="feed flex-col">
+        <div class="profile flex-row">
+            <div class="img-wrap">
+                <img width="32" src="image/icons/13.jpeg" alt="">
+            </div>
+            <p class="name flex-col">
+                <span>al.hilma_254</span>
+                <span>Demak jateng</span>
+            </p>
+            <img src="image/icons/7.png" alt="">
+        </div>
+        <div class="imgs">
+            <div>
+                <img src="image/icons/14.jpeg" alt="">
+            </div>
+            
+        </div>
+        <div class="icons flex-row"> 
+            <img src="image/icons/12.png">
+            <img src="image/icons/9.png">
+            <img src="image/icons/2.png">
+            <img src="image/icons/10.png">
+        </div>
+        <div class="likes"> 
+            99,999 likes
+            
+        </div>
+        <div class="comments">
+            <span class="title">al.hilma_254</span>
+            "Jadikan kegagalanmu sebagai batu loncatan untuk bisa menggapai hal yang lebih tinggi.
+            <span class="hashtag">#Tetap_semangat_walausambat</span>
+        </div> 
+        <div class="count">
+            view all 2.106 comments
+        </div> 
+        <div class="time">
+            20 Menit Yang Lalu
+        </div> 
+            <div class="gnb flex-row"> 
+            </div>
+    </div>
+    <div class="account flex-col">
+            <div class="account-content">
+                <li class="flex-row">
+                    <div class="img-wrap">
+                        <img width="56px" src="image/icons/13.jpeg">
+                    </div>
+                    <p class="flex-col">
+                        <span>al.hilma_254</span>
+                        <span>sparta</span>
+                    </p>
+                    <a href="#">Guee</a>
+                </li>
+                <li class="flex-row Suggestions"> 
+                    <span>Suggestions for you</span>
+                    <a href="#">See All</a>
+                </li>
+                <li class="flex-row friends">
+                    <div class="img-wrap">
+                        <img width="32px" src="image/follower/kipli.png">
+                    </div>
+                    <p class="flex-col">
+                        <span>Risquwiii--</span>
+                        <span>popular</span>
+                    </p>
+                    <a href="#">follow</a>
+                </li>
+                <li class="flex-row friends">
+                    <div class="img-wrap">
+                        <img width="32px" src="image/follower/adm.jpg">
+                    </div>
+                    <p class="flex-col">
+                        <span>Adam_JKT48</span>
+                        <span>popular</span>
+                    </p>
+                    <a href="#">follow</a>
+                </li>
+                <li class="flex-row friends">
+                    <div class="img-wrap">
+                        <img width="32px" src="image/follower/yulii.jpeg">
+                    </div>
+                    <p class="flex-col">
+                        <span>Youliyyy</span>
+                        <span>popular</span>
+                    </p>
+                    <a href="#">follow</a>
+                </li>
+                 <li class="flex-row friends">
+                    <div class="img-wrap">
+                        <img width="32px" src="image/follower/inces.jpeg">
+                    </div>
+                    <p class="flex-col">
+                        <span>Incessss</span>
+                        <span>popular</span>
+                    </p>
+                    <a href="#">follow</a>
+                </li> 
+                <li class="flex-row friends">
+                    <div class="img-wrap">
+                        <img width="32px" src="image/follower/lerning.jpg">
+                    </div>
+                    <p class="flex-col">
+                        <span>LearningX</span>
+                        <span>popular</span>
+                    </p>
+                    <a href="#">follow</a>
+                </li> 
+            </div>
+            <div class="about">
+                <a href="#">About</a>
+                <a href="#">Help</a>
+                <a href="#">Pers</a>
+                <a href="#">API</a>
+                <a href="#">Work</a>
+                <a href="#">Privacy</a>
+                <a href="#">Provision</a>
+                <a href="#">Location</a>
+                <a href="#">Language</a>
+                <a href="#">from Al Hilma Maliha Oktavia</a>
+            </div>
+            <div class="name">
+                © 2024 INSTAGRAM FROM HILMA
+            </div>
+    </div>
+   </div>
+</body>
+</html>
